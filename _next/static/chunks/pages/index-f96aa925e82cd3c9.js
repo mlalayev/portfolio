@@ -974,7 +974,7 @@
                 },
                 {
                   title: "Goodreads",
-                  url: "https://www.goodreads.com/user/show/143480747-brittany-chiang",
+                  url: "https://www.goodreads.com/user/show/183391694-murad-lalayev",
                   icon: "goodreads",
                 },
               ].map((e, t) =>
