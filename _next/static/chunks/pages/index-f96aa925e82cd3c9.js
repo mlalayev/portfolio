@@ -441,79 +441,70 @@
             (0, s.jsxs)("p", {
               className: "mb-4",
               children: [
-                "Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an",
+                "Back in 2018, I took my first steps into the world of coding, starting with Python. I quickly got hooked, and soon enough, I was experimenting with small projects in Unity using C#. Eventually, I found my passion in front-end development, where design meets functionality in the most engaging way. With over 2 years of experience in front-end development, I’ve become well-versed in , along with other modern frameworks and tools",
                 " ",
                 (0, s.jsx)("a", {
                   className: e,
-                  href: "https://us.mullenlowe.com/",
+                  href: "https://www.javascript.com/",
                   target: "_blank",
                   rel: "noreferrer noopener",
-                  "aria-label": "advertising agency (opens in a new tab)",
-                  children: "advertising agency",
+                  "aria-label": "JavaScript webpage (opens in a new tab)",
+                  children: "JavaScript",
                 }),
-                ", a",
+                ", ",
                 " ",
                 (0, s.jsx)("a", {
                   className: e,
-                  href: "https://starry.com/",
+                  href: "https://react.dev/",
                   target: "_blank",
                   rel: "noreferrer noopener",
-                  "aria-label": "start-up (opens in a new tab)",
-                  children: "start-up",
+                  "aria-label": "React webpage (opens in a new tab)",
+                  children: "React",
                 }),
-                ", a",
+                ", ",
                 " ",
                 (0, s.jsx)("a", {
                   className: e,
-                  href: "https://www.apple.com/apple-music/",
+                  href: "https://redux-toolkit.js.org/",
                   target: "_blank",
                   rel: "noreferrer noopener",
-                  "aria-label": "huge corporation (opens in a new tab)",
-                  children: "huge corporation",
+                  "aria-label": "Redux webpage (opens in a new tab)",
+                  children: "Redux-Toolkit",
                 }),
-                ", and a",
+                " and ",
                 " ",
                 (0, s.jsx)("a", {
                   className: e,
-                  href: "https://upstatement.com/",
+                  href: "https://reactnative.dev/",
                   target: "_blank",
                   rel: "noreferrer noopener",
                   "aria-label": "digital product studio (opens in a new tab)",
-                  children: "digital product studio",
+                  children: "React Native",
                 }),
-                ".",
+                " along with other modern frameworks and tools.",
               ],
             }),
             (0, s.jsxs)("p", {
               className: "mb-4",
               children: [
-                "My main focus these days is building accessible user interfaces for our customers at",
+                "These days, my main focus is helping students gain a deep understanding of front-end development as an instructor at ",
                 " ",
                 (0, s.jsx)("a", {
                   className: e,
                   href: "https://www.klaviyo.com/",
                   target: "_blank",
                   rel: "noreferrer noopener",
-                  "aria-label": "Klaviyo (opens in a new tab)",
-                  children: "Klaviyo",
+                  "aria-label": "EVO Academy linkedIN (opens in a new tab)",
+                  children: "EVO Academy",
                 }),
-                ". I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an",
+                ". I’m passionate about guiding others through the intricacies of the field, ensuring they not only build great-looking applications but also understand the underlying principles that make them work well. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood.",
                 " ",
-                (0, s.jsx)("a", {
-                  className: e,
-                  href: "https://www.newline.co/courses/build-a-spotify-connected-app",
-                  target: "_blank",
-                  rel: "noreferrer noopener",
-                  "aria-label": "online video course (opens in a new tab)",
-                  children: "online video course",
-                }),
                 " ",
-                "that covers everything you need to know to build a web app with the Spotify API.",
               ],
             }),
             (0, s.jsxs)("p", {
               children: [
-                "When I’m not at the computer, I’m usually rock climbing, reading, hanging out with my wife and two cats, or running around Hyrule searching for",
+                "When I’m not at the computer, In my free time, I enjoy playing football, diving into video games, and hanging out with",
                 " ",
                 (0, s.jsxs)("span", {
                   className:
@@ -521,55 +512,53 @@
                   children: [
                     (0, s.jsx)("span", {
                       className: "sr-only",
-                      children: "Korok seeds",
+                      children: "",
                     }),
-                    "Korok seeds"
-                      .split("")
-                      .map((e, t) =>
-                        (0, s.jsx)(
-                          "span",
-                          {
-                            className: ""
-                              .concat(
-                                [
-                                  "group-hover/korok:text-red-400",
-                                  "group-hover/korok:text-orange-400",
-                                  "group-hover/korok:text-yellow-400",
-                                  "group-hover/korok:text-lime-400",
-                                  "group-hover/korok:text-green-400",
-                                  "group-hover/korok:text-teal-400",
-                                  "group-hover/korok:text-cyan-400",
-                                  "group-hover/korok:text-sky-400",
-                                  "group-hover/korok:text-blue-400",
-                                  "group-hover/korok:text-indigo-400",
-                                  "group-hover/korok:text-violet-400",
-                                ][t],
-                                " transition duration-75 group-hover/korok:-translate-y-px "
-                              )
-                              .concat(
-                                [
-                                  "delay-[50ms]",
-                                  "delay-[75ms]",
-                                  "delay-[100ms]",
-                                  "delay-[125ms]",
-                                  "delay-[150ms]",
-                                  "delay-[175ms]",
-                                  "delay-[200ms]",
-                                  "delay-[225ms]",
-                                  "delay-[250ms]",
-                                  "delay-[275ms]",
-                                  "delay-[300ms]",
-                                ][t]
-                              ),
-                            "aria-hidden": "true",
-                            children: " " === e ? "\xa0" : e,
-                          },
-                          t
-                        )
-                      ),
+                    "friends".split("").map((e, t) =>
+                      (0, s.jsx)(
+                        "span",
+                        {
+                          className: ""
+                            .concat(
+                              [
+                                "group-hover/korok:text-red-400",
+                                "group-hover/korok:text-orange-400",
+                                "group-hover/korok:text-yellow-400",
+                                "group-hover/korok:text-lime-400",
+                                "group-hover/korok:text-green-400",
+                                "group-hover/korok:text-teal-400",
+                                "group-hover/korok:text-cyan-400",
+                                "group-hover/korok:text-sky-400",
+                                "group-hover/korok:text-blue-400",
+                                "group-hover/korok:text-indigo-400",
+                                "group-hover/korok:text-violet-400",
+                              ][t],
+                              " transition duration-75 group-hover/korok:-translate-y-px "
+                            )
+                            .concat(
+                              [
+                                "delay-[50ms]",
+                                "delay-[75ms]",
+                                "delay-[100ms]",
+                                "delay-[125ms]",
+                                "delay-[150ms]",
+                                "delay-[175ms]",
+                                "delay-[200ms]",
+                                "delay-[225ms]",
+                                "delay-[250ms]",
+                                "delay-[275ms]",
+                                "delay-[300ms]",
+                              ][t]
+                            ),
+                          "aria-hidden": "true",
+                          children: " " === e ? "\xa0" : e,
+                        },
+                        t
+                      )
+                    ),
                   ],
                 }),
-                ".",
+                " to unwind and recharge to unwind and recharge.",
               ],
             }),
           ],
@@ -592,92 +581,24 @@
               children: [
                 {
                   date: "2024 — Present",
-                  company: { name: "Klaviyo", link: "https://www.klaviyo.com" },
-                  positions: ["Junior Frontend Engineer, Accessibility"],
-                  desc: "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-                  tech: ["JavaScript", "TypeScript", "React", "Storybook"],
-                },
-                {
-                  date: "2018 — 2024",
                   company: {
-                    name: "Upstatement",
-                    link: "https://upstatement.com",
+                    name: "EVO Academy",
+                    link: "https://www.evoacademy.com",
                   },
-                  positions: ["Lead Engineer", "Junior Engineer", "Engineer"],
-                  desc: "Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools.",
+                  positions: ["Frontend Instructor"],
+                  desc: "Instruct and mentor students in front-end development, focusing on foundational skills in HTML, CSS, and JavaScript, as well as modern frameworks like React. Design and deliver a curriculum that covers both practical and theoretical aspects of front-end development, emphasizing best practices and industry standards. Collaborate with students to deepen their understanding of core concepts, ensuring they gain the skills needed to succeed in a competitive field.",
                   tech: [
-                    "JavaScript",
-                    "TypeScript",
-                    "HTML & SCSS",
+                    "HTML",
+                    "CSS",
+                    "SCSS",
                     "React",
                     "Next.js",
-                    "React Native",
-                    "WordPress",
-                    "Contentful",
                     "Node.js",
-                    "PHP",
+                    "JavaScript",
+                    "TypeScript",
+                    "React Native",
+                    "RESTful API ",
                   ],
-                },
-                {
-                  date: "July — Dec 2017",
-                  company: {
-                    name: "Apple",
-                    link: "https://www.apple.com/apple-music/",
-                  },
-                  positions: ["UI Engineer Co-op"],
-                  desc: "Developed and styled interactive web apps for Apple Music, including the user interface of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
-                  tech: ["Ember", "SCSS", "JavaScript", "MusicKit.js"],
-                  links: [
-                    {
-                      title: "MusicKit.js",
-                      url: "https://developer.apple.com/documentation/musickitjs",
-                    },
-                    {
-                      title: "9to5Mac",
-                      url: "https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/",
-                    },
-                    {
-                      title: "The Verge",
-                      url: "https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming",
-                    },
-                  ],
-                },
-                {
-                  date: "2016 — 2017",
-                  company: {
-                    name: "Scout Studio",
-                    link: "https://scout.camd.northeastern.edu/",
-                  },
-                  positions: ["Developer"],
-                  desc: "Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community.",
-                  tech: ["Jekyll", "SCSS", "JavaScript", "WordPress"],
-                },
-                {
-                  date: "July — Dec 2016",
-                  company: { name: "Starry", link: "https://starry.com/" },
-                  positions: ["Software Engineer Co-op"],
-                  desc: "Worked with the UI team to engineer and improve major features of Starry’s customer-facing Android app.",
-                  tech: ["Cordova", "Backbone", "JavaScript", "CSS"],
-                  links: [
-                    {
-                      title: "Android App",
-                      url: "https://play.google.com/store/apps/details?id=com.starry.management&hl=en_US&gl=US",
-                    },
-                    {
-                      title: "ScreenTime 2.0",
-                      url: "https://starry.com/blog/product/whats-new-screentime-just-got-better-for-parents",
-                    },
-                  ],
-                },
-                {
-                  date: "July — Dec 2015",
-                  company: {
-                    name: "MullenLowe U.S.",
-                    link: "https://us.mullenlowe.com/",
-                  },
-                  positions: ["Creative Technologist Co-op"],
-                  desc: "Developed, maintained, and shipped production code for client websites. Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more.",
-                  tech: ["HTML", "CSS", "JavaScript", "jQuery"],
                 },
               ].map((e, t) =>
                 (0, s.jsx)(
@@ -1213,9 +1134,7 @@
         let [e, t] = (0, r.useState)(null);
         return (0, s.jsx)("div", {
           ref: t,
-          children: (0, s.jsxs)(w.fC, {
-
-          }),
+          children: (0, s.jsxs)(w.fC, {}),
         });
       }
       function y() {
