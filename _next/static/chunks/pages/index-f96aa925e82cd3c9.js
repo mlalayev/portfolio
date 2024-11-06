@@ -1008,38 +1008,30 @@
               className: "group/list",
               children: [
                 {
-                  title: "Build a Spotify Connected App",
-                  link: "https://www.newline.co/courses/build-a-spotify-connected-app",
-                  image: "/images/projects/course-card.png",
-                  alt: "Build a Spotify Connected App Newline course marketing card",
-                  desc: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
+                  title: "Build a SMM Webpage",
+                  link: "https://github.com/mlalayev/AdHoven",
+                  // image: "/images/image.png",
+                  // alt: "Build a Spotify Connected App Newline course marketing card",
+                  tech: ["React", "HTML & CSS", "JavaScript", "Weather API"],
+                  desc: "A dynamic and responsive webpage designed to showcase social media marketing (SMM) strategies and services. The project includes features such as customizable ad campaign creation, audience targeting, performance analytics, and integration with major social media platforms to enhance brand visibility and engagement.",
+                  github: "https://github.com/mlalayev/AdHoven",
                 },
                 {
-                  title: "Spotify Profile",
-                  link: "https://spotify-profile.herokuapp.com/",
-                  image: "/images/projects/spotify-profile.png",
-                  alt: "Spotify Profile app homepage",
-                  desc: "Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-                  tech: ["React", "Express", "Spotify API", "Heroku"],
-                  github: "https://github.com/bchiang7/spotify-profile",
+                  title: "Education Webpage",
+                  link: "https://github.com/mlalayev/FinalProjectEVOCoding",
+                  // image: "/images/projects/spotify-profile.png",
+                  // alt: "Spotify Profile app homepage",
+                  desc: "An interactive and user-friendly educational webpage designed to provide resources, courses, and tutorials on a variety of topics. The platform offers engaging learning experiences with features like course tracking, interactive quizzes, and personalized learning paths. It's built to help users enhance their skills and knowledge with a seamless, accessible interface.",
+                  tech: ["React", "HTML & CSS", "JavaScript", "RESTful API"],
+                  github: "https://github.com/mlalayev/FinalProjectEVOCoding",
                 },
                 {
-                  title: "Halcyon Theme",
-                  link: "https://halcyon-theme.netlify.app/",
-                  image: "/images/projects/halcyon.png",
-                  alt: "Halcyon Theme homepage hero with screenshot of VS Code editor",
-                  desc: "Minimal dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more.",
-                  download:
-                    "https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode",
-                },
-                {
-                  title: "brittanychiang.com (v4)",
-                  link: "https://v4.brittanychiang.com/",
-                  image: "/images/projects/v4.png",
-                  alt: "brittanychiang.com version 4 hero section",
-                  desc: "An old portfolio site built with Gatsby with 6k+ stars and 3k+ forks",
-                  tech: ["Gatsby", "Styled Components", "Netlify"],
-                  github: "https://github.com/bchiang7/v4",
+                  title: "Face Gesture TenserFlow.js",
+                  link: "https://github.com/mlalayev/FaceGestureChecker",
+                  // image: "./images/image.webp",
+                  // alt: "Halcyon Theme homepage hero with screenshot of VS Code editor",
+                  desc: "A cutting-edge web application that uses TensorFlow.js to recognize and interpret facial gestures in real-time. This project enables users to control the interface or trigger actions using simple facial expressions. It leverages machine learning models for accurate gesture detection, providing an innovative and hands-free way to interact with digital content.",
+                  tech: ["React", "HTML & CSS", "JavaScript", "TenserFlow.js"],
                 },
               ].map((t, a) =>
                 (0, s.jsx)(
@@ -1103,12 +1095,12 @@
                           ],
                         }),
                         (0, s.jsx)(x(), {
-                          className:
-                            "rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
-                          src: t.image,
-                          alt: t.alt,
-                          width: 200,
-                          height: 48,
+                          // className:
+                          // "rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
+                          // src: t.image,
+                          // alt: t.alt,
+                          // width: 200,
+                          // height: 48,
                         }),
                       ],
                     }),
@@ -1121,7 +1113,9 @@
               className: "mt-12",
               children: (0, s.jsx)(f, {
                 title: "View Full Project Archive",
-                url: "/archive",
+                url: "https://github.com/mlalayev?tab=repositories",
+                target: "_blank",
+                rel: "noreferrer noopener",
                 className: "font-semibold text-slate-200",
               }),
             }),
@@ -1142,24 +1136,24 @@
           children: (0, s.jsx)("ul", {
             className: "group/list",
             children: [
-              {
-                title: "Integrating Algolia Search with WordPress Multisite",
-                date: "2020",
-                url: "https://upstatement.com/blog/integrating-algolia-search-with-wordpress-multisite/",
-                image: {
-                  src: "/images/writing/algolia-search.jpeg",
-                  alt: "Telescope",
-                },
-              },
-              {
-                title: "Building a Headless Mobile App CMS From Scratch",
-                date: "2019",
-                url: "https://upstatement.com/blog/building-a-headless-mobile-app-cms-from-scratch/",
-                image: {
-                  src: "/images/writing/headless.jpeg",
-                  alt: "Headless horseamn",
-                },
-              },
+              // {
+              //   title: "Integrating Algolia Search with WordPress Multisite",
+              //   date: "2020",
+              //   url: "https://upstatement.com/blog/integrating-algolia-search-with-wordpress-multisite/",
+              //   image: {
+              //     src: "/images/writing/algolia-search.jpeg",
+              //     alt: "Telescope",
+              //   },
+              // },
+              // {
+              //   title: "Building a Headless Mobile App CMS From Scratch",
+              //   date: "2019",
+              //   url: "https://upstatement.com/blog/building-a-headless-mobile-app-cms-from-scratch/",
+              //   image: {
+              //     src: "/images/writing/headless.jpeg",
+              //     alt: "Headless horseamn",
+              //   },
+              // },
             ].map((e, t) =>
               (0, s.jsx)(
                 "li",
@@ -1172,9 +1166,9 @@
                       (0, s.jsx)(i, {}),
                       (0, s.jsx)(x(), {
                         className:
-                          "z-10 col-span-2 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:col-span-2",
-                        src: e.image.src,
-                        alt: e.image.alt,
+                          "rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
+                        src: t.image,
+                        alt: e.alt,
                         width: 200,
                         height: 48,
                       }),
