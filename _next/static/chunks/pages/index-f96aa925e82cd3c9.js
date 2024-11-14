@@ -1010,7 +1010,7 @@
                 {
                   title: "Build a SMM Webpage",
                   link: "https://github.com/mlalayev/AdHoven",
-                  // image: "/images/image.png",
+                  image: "/images/svgconvert2.png",
                   // alt: "Build a Spotify Connected App Newline course marketing card",
                   tech: ["React", "HTML & CSS", "JavaScript", "Weather API"],
                   desc: "A dynamic and responsive webpage designed to showcase social media marketing (SMM) strategies and services. The project includes features such as customizable ad campaign creation, audience targeting, performance analytics, and integration with major social media platforms to enhance brand visibility and engagement.",
