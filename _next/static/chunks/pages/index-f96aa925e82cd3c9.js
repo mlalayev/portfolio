@@ -507,8 +507,7 @@
                 "When I’m not at the computer, In my free time, I enjoy playing football, diving into video games, and hanging out with",
                 " ",
                 (0, s.jsxs)("span", {
-                  className:
-                    "group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200",
+                  className:"",
                   children: [
                     (0, s.jsx)("span", {
                       className: "sr-only",
@@ -972,13 +971,6 @@
             [a, n] = (0, r.useState)(null);
           return ((0, r.useEffect)(() => {
             let e = t.split("/")[4];
-            fetch("https://api.github.com/repos/bchiang7/".concat(e))
-              .then((e) => e.json())
-              .then((e) => {
-                let { stargazers_count: t } = e;
-                n(t);
-              })
-              .catch((e) => console.error(e));
           }, [t]),
           a)
             ? (0, s.jsxs)("a", {
@@ -1010,8 +1002,8 @@
                 {
                   title: "Build a SMM Webpage",
                   link: "https://github.com/mlalayev/AdHoven",
-                  image: "/images/svgconvert2.png",
-                  // alt: "Build a Spotify Connected App Newline course marketing card",
+                  image: "./_next/static/public/images/svgconvert2.png",
+                  alt: "",
                   tech: ["React", "HTML & CSS", "JavaScript", "Weather API"],
                   desc: "A dynamic and responsive webpage designed to showcase social media marketing (SMM) strategies and services. The project includes features such as customizable ad campaign creation, audience targeting, performance analytics, and integration with major social media platforms to enhance brand visibility and engagement.",
                   github: "https://github.com/mlalayev/AdHoven",
@@ -1019,8 +1011,8 @@
                 {
                   title: "Education Webpage",
                   link: "https://github.com/mlalayev/FinalProjectEVOCoding",
-                  // image: "/images/projects/spotify-profile.png",
-                  // alt: "Spotify Profile app homepage",
+                  image: "./_next/static/public/images/svgconvert2.png",
+                  alt: "Spotify Profile app homepage",
                   desc: "An interactive and user-friendly educational webpage designed to provide resources, courses, and tutorials on a variety of topics. The platform offers engaging learning experiences with features like course tracking, interactive quizzes, and personalized learning paths. It's built to help users enhance their skills and knowledge with a seamless, accessible interface.",
                   tech: ["React", "HTML & CSS", "JavaScript", "RESTful API"],
                   github: "https://github.com/mlalayev/FinalProjectEVOCoding",
@@ -1028,8 +1020,8 @@
                 {
                   title: "Face Gesture TenserFlow.js",
                   link: "https://github.com/mlalayev/FaceGestureChecker",
-                  // image: "./images/image.webp",
-                  // alt: "Halcyon Theme homepage hero with screenshot of VS Code editor",
+                  image: "./_next/static/public/images/svgconvert2.png",
+                  alt: "Halcyon Theme homepage hero with screenshot of VS Code editor",
                   desc: "A cutting-edge web application that uses TensorFlow.js to recognize and interpret facial gestures in real-time. This project enables users to control the interface or trigger actions using simple facial expressions. It leverages machine learning models for accurate gesture detection, providing an innovative and hands-free way to interact with digital content.",
                   tech: ["React", "HTML & CSS", "JavaScript", "TenserFlow.js"],
                 },
@@ -1049,6 +1041,7 @@
                             (0, s.jsx)("h3", {
                               children: (0, s.jsx)(l.Z, {
                                 title: t.title,
+                                src: t.image,
                                 url: t.link,
                                 fill: !0,
                               }),
@@ -1095,12 +1088,12 @@
                           ],
                         }),
                         (0, s.jsx)(x(), {
-                          // className:
-                          // "rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
-                          // src: t.image,
-                          // alt: t.alt,
-                          // width: 200,
-                          // height: 48,
+                          className:
+                          "rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
+                          src: t.image,
+                          alt: t.alt,
+                          width: 200,
+                          height: 48,
                         }),
                       ],
                     }),

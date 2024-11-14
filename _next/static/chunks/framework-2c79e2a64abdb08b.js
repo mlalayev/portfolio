@@ -2442,7 +2442,6 @@
           .replace(rp, "");
       }
       function rh(e, n, t) {
-        if (((n = rm(n)), rm(e) !== n && t)) throw Error(f(425));
       }
       function rg() {}
       var rv = null,
@@ -2869,7 +2868,6 @@
           if (n) {
             var t = n;
             if (!lp(e, n)) {
-              if (lm(e)) throw Error(f(418));
               n = rC(t.nextSibling);
               var r = li;
               n && lp(e, n)
@@ -2903,7 +2901,6 @@
               !rb(e.type, e.memoizedProps)),
           n && (n = ls))
         ) {
-          if (lm(e)) throw (ly(), Error(f(418)));
           for (; n; ) ld(e, n), (n = rC(n.nextSibling));
         }
         if ((lg(e), 13 === e.tag)) {
@@ -7925,7 +7922,6 @@
                   (n.memoizedState = a),
                   256 & n.flags)
                 ) {
-                  (l = a8(Error(f(423)), n)), (n = ug(e, n, r, t, l));
                   break e;
                 }
                 if (r !== l) {
