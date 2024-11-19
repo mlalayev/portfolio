@@ -1002,7 +1002,7 @@
                 {
                   title: "Build a SMM Webpage",
                   link: "https://github.com/mlalayev/AdHoven",
-                  image: "./_next/static/public/images/svgconvert2.png",
+                  // image: "./_next/static/public/images/svgconvert2.png",
                   alt: "",
                   tech: ["React", "HTML & CSS", "JavaScript", "Weather API"],
                   desc: "A dynamic and responsive webpage designed to showcase social media marketing (SMM) strategies and services. The project includes features such as customizable ad campaign creation, audience targeting, performance analytics, and integration with major social media platforms to enhance brand visibility and engagement.",
@@ -1011,7 +1011,7 @@
                 {
                   title: "Education Webpage",
                   link: "https://github.com/mlalayev/FinalProjectEVOCoding",
-                  image: "./_next/static/public/images/svgconvert2.png",
+                  // image: "./_next/static/public/images/svgconvert2.png",
                   alt: "Spotify Profile app homepage",
                   desc: "An interactive and user-friendly educational webpage designed to provide resources, courses, and tutorials on a variety of topics. The platform offers engaging learning experiences with features like course tracking, interactive quizzes, and personalized learning paths. It's built to help users enhance their skills and knowledge with a seamless, accessible interface.",
                   tech: ["React", "HTML & CSS", "JavaScript", "RESTful API"],
@@ -1020,7 +1020,7 @@
                 {
                   title: "Face Gesture TenserFlow.js",
                   link: "https://github.com/mlalayev/FaceGestureChecker",
-                  image: "./_next/static/public/images/svgconvert2.png",
+                  // image: "./_next/static/public/images/svgconvert2.png",
                   alt: "Halcyon Theme homepage hero with screenshot of VS Code editor",
                   desc: "A cutting-edge web application that uses TensorFlow.js to recognize and interpret facial gestures in real-time. This project enables users to control the interface or trigger actions using simple facial expressions. It leverages machine learning models for accurate gesture detection, providing an innovative and hands-free way to interact with digital content.",
                   tech: ["React", "HTML & CSS", "JavaScript", "TenserFlow.js"],
@@ -1041,7 +1041,7 @@
                             (0, s.jsx)("h3", {
                               children: (0, s.jsx)(l.Z, {
                                 title: t.title,
-                                src: t.image,
+                                // src: t.image,
                                 url: t.link,
                                 fill: !0,
                               }),
@@ -1090,7 +1090,7 @@
                         (0, s.jsx)(x(), {
                           className:
                           "rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
-                          src: t.image,
+                          // src: t.image,
                           alt: t.alt,
                           width: 200,
                           height: 48,
@@ -1160,7 +1160,7 @@
                       (0, s.jsx)(x(), {
                         className:
                           "rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
-                        src: t.image,
+                        // src: t.image,
                         alt: e.alt,
                         width: 200,
                         height: 48,
